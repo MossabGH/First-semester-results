@@ -581,21 +581,14 @@ def réaliser_par():
     root2.resizable(False,False)
     root2.iconbitmap("image/imag_1.ico")
     
-    Réaliser=tk.Label(root2,text="Réaliser par :",bg="#4dff00",font=(16))
-    Réaliser.place(x=80,y=10)
-    MOUS=tk.Label(root2,text="-MOUSSAB MOATI",bg="#4dff00")
-    MOUS.place(x=30,y=30)
-    HUSS=tk.Label(root2,text="-HUSSEIN DAHINI",bg="#4dff00")
-    HUSS.place(x=30,y=50)
-    NASSR=tk.Label(root2,text="-NASSR EDDIN OUAHRANI",bg="#4dff00")
-    NASSR.place(x=30,y=70)
-    ALI=tk.Label(root2,text="-ALI HAIDER DJEKIDEL",bg="#4dff00")
-    ALI.place(x=30,y=90)
+    
+
+
 
     root2.mainloop()
 #buttn  Réaliser par
-réaliser=tk.Button(text="Réaliser par",command=réaliser_par,bg="#4dff00")
-réaliser.place(x=3,y=402)
+MOUS=tk.Label(text="MossabGH",bg="#4dff00",font=("Impact", 15))
+MOUS.place(x=3,y=402)
 
 root.mainloop()
 
